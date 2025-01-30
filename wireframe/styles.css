@@ -8,8 +8,9 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-.image {
-    background-color: azure;
+img {
+    marg
+    width: 200px;
     grid-column: 1/2;
 }
 
