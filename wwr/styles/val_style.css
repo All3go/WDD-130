@@ -1,0 +1,31 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    height: 100vh;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid black;
+    position: absolute;
+    z-index: 1;
+}
+
+.rectangle {
+    width: 100px;
+    height: 70px;
+    background: transparent;
+    border: 5px solid black;
+    z-index: 2;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 160, 174);
+}
