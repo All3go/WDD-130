@@ -137,7 +137,7 @@ footer .social_img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.book, .join {
+.book, .join, .book-btn {
     background-color: #f0b293;
     color: white;
     padding: 10px 20px;
@@ -229,6 +229,46 @@ main section img {
     grid-template-columns: repeat(10,1fr);
 }
 
+.river-img {
+    border: 10px solid #F9C784;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.book-btn:hover {
+    background-color: #fcdac5;
+    color: #1a1a1a
+}
+
+.hero-river {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    max-width: 1000px;
+    gap: 2rem;
+    align-items: flex-start;
+    height: auto;
+}
+
+.hero-content.reverse {
+    flex-direction: row-reverse;
+}
+
+.hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.book-btn {
+    margin-top: auto;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
