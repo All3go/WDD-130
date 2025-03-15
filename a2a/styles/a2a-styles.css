@@ -1,0 +1,53 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header & Footer */
+  header, footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Main container for the two columns */
+  .container {
+    display: flex;
+    /* Adjust height as needed; here we subtract header and footer heights from viewport */
+    height: calc(100vh - 140px);
+  }
+  
+  /* Columns styling */
+  .column {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Different background colors for differentiation */
+  .astrology {
+    background-color: #f4f4f4;
+  }
+  
+  .astronomy {
+    background-color: #e2e2e2;
+  }
+  
+  /* Main section and section styling */
+  main {
+    margin: 20px;
+  }
