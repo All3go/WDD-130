@@ -16,18 +16,18 @@ header {
 }
 
 header.shrink {
-  padding: 10px 40px;  /* Reduce padding */
-  height: 60px;  /* Shrink height */
+  padding: 10px 40px;
+  height: 60px; 
 }
 
 header a img {
   height: 100px;
   width: auto;
-  transition: height 0.3s; /* Smooth transition for logo size */
+  transition: height 0.3s; 
 }
 
 header.shrink a img {
-  height: 60px;  /* Reduce logo size when shrunk */
+  height: 60px; 
 }
 
 
