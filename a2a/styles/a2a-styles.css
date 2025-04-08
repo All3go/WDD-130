@@ -82,3 +82,103 @@ footer .social img:hover {
 }
 
 
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.center-column{
+  background-color: #4A48AD;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+.center-column {
+  text-align: center;
+  padding: 20px;
+}
+
+.center-column .home-title h1 {
+  font-size: 48px; 
+  margin-bottom: 10px;
+  font-family: Bruno Ace Sc;
+}
+
+.center-column .home-title h4 {
+  font-size: 24px; 
+  margin-bottom: 20px;
+  font-family: Bruno Ace Sc;
+}
+
+.center-column .home.paragraph {
+  font-size: 18px; 
+  line-height: 1.6;
+  font-family: Limelight;
+}
+
+.column-astronomy,
+.column-astrology {
+  background-color: #4A48AD;
+  padding: 10px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-astronomy img,
+.column-astrology img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.six-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.six-boxes .box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.six-boxes .box:nth-child(-n+3) {
+  background-color: #8DBCCE;
+}
+
+.six-boxes .box:nth-child(n+4) {
+  background-color: #D7B9D5;
+}
+
+.six-boxes .box:hover {
+  transform: scale(1.3);
+}
+
+body {
+  background-color: #000; /* Black background for the whole page */
+  color: #fff; /* Ensures the text color is visible over the background */
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */
+}
+
