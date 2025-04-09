@@ -80,3 +80,58 @@ footer .social img {
 footer .social img:hover {
   transform: scale(1.1);
 }
+
+body {
+  background-color: black;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  background-color: black;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #4A48AD;
+  overflow: hidden;
+  height: 400px;  /* Set a fixed height for all hero sections */
+  position: relative;  /* To ensure the text stays above the image */
+}
+
+.hero-img {
+  width: 50%;
+  height: 100%;  /* Make the image fill the height of the hero section */
+  object-fit: cover;  /* Ensure the image covers the entire area without distortion */
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%), url('your-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  padding: 20px;
+  color: white;
+  max-width: 500px;
+  z-index: 3;  /* Ensure text appears above the image */
+}
+
+.hero h3 {
+  font-size: 32px;
+  font-family: 'Bruno Ace SC', sans-serif;
+  margin-bottom: 10px;
+  color: #8DBCCE;
+}
+
+.hero p {
+  font-size: 16px;  /* Reduced font size for descriptions */
+  font-family: 'Oxanium', sans-serif;
+  line-height: 1.6;
+  max-width: 90%;  /* Ensure text doesn't stretch too wide */
+}
+
+
+/* Reverse hero section to flip image and text */
+.hero.reverse {
+  flex-direction: row-reverse;
+}
